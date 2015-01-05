@@ -1,0 +1,38 @@
+1. name: Name of the country concerned 名称：有关国家的名字
+2. landmass: 1=N.America, 2=S.America, 3=Europe, 4=Africa, 5=Asia, 6=Oceania 
+3. zone: Geographic quadrant, based on Greenwich and the Equator; 1=NE, 2=SE, 3=SW, 4=NW 
+区：地理象限，基于格林尼治和赤道；1 = 东北，2 =东南，3 = 西南，4 =西北。
+4. area: in thousands of square km 区：千平方公里
+5. population: in round millions 人口：百万
+6. language: 1=English, 2=Spanish, 3=French, 4=German, 5=Slavic, 6=Other Indo-European, 7=Chinese, 8=Arabic, 9=Japanese/Turkish/Finnish/Magyar, 10=Others 
+语言：1＝英语，2＝西班牙语，3＝法语，4 =德语， 5=斯拉夫语，6 = 其他印欧语系，7 = 阿拉伯语，8 =中文，9 =日本/土耳其/芬兰/匈牙利，10 =其它
+7. religion: 0=Catholic, 1=Other Christian, 2=Muslim, 3=Buddhist, 4=Hindu, 5=Ethnic, 6=Marxist, 7=Others 
+宗教：0 =天主教， 1 =其他基督教，2 = 穆斯林，3 = 佛教，4=印度教，5 = 马克思=，6=民族主义，7 =其它
+
+8. bars: Number of vertical bars in the flag 旗帜中的竖条数
+9. stripes: Number of horizontal stripes in the flag 旗帜中的横条数
+10. colours: Number of different colours in the flag 旗帜中的不同种颜色数
+11. red: 0 if red absent, 1 if red present in the flag 如果红色存在则为1，否则为0.
+12. green: same for green 绿色
+13. blue: same for blue 蓝色
+14. gold: same for gold (also yellow) 金色
+15. white: same for white 白色
+16. black: same for black 黑色
+17. orange: same for orange (also brown) 橙色
+18. mainhue: predominant colour in the flag (tie-breaks decided by taking the topmost hue, if that fails then the most central hue, and if that fails the leftmost hue) 
+主要颜色的国旗(抢七决定通过顶端的色调,如果失败,那么最中央的色调,如果失败最左边的颜色)
+19. circles: Number of circles in the flag 
+圈:圆圈标记的数量
+20. crosses: Number of (upright) crosses 穿越:(直立)十字架
+21. saltires: Number of diagonal crosses 圣安得鲁十字:对角交叉
+22. quarters: Number of quartered sections 季度:数量的部分
+23. sunstars: Number of sun or star symbols 海星:太阳或明星符号
+24. crescent: 1 if a crescent moon symbol present, else 0 新月:1如果新月象征存在,否则为0
+25. triangle: 1 if any triangles present, 0 otherwise 三角形:1如果有三角形,否则为0
+26. icon: 1 if an inanimate image present (e.g., a boat), otherwise 0图标:1如果一个无生命的图像(如。一艘船),否则为0 
+27. animate: 1 if an animate image (e.g., an eagle, a tree, a human hand) present, 0 otherwise 动画:1(如果一个动画形象。鹰,一棵树,一个人类的手),否则为0
+28. text: 1 if any letters or writing on the flag (e.g., a motto or slogan), 0 otherwise (有字母或标志)
+29. topleft: colour in the top-left corner (moving right to decide tie-breaks) 色彩在左上角
+30. botright: Colour in the bottom-left corner (moving left to decide tie-breaks)色彩在左下角
+
+
